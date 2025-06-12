@@ -1,0 +1,17 @@
+.preview {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+}
+
+.light {
+  background: #eee;
+  color: #000;
+}
+
+.dark {
+  background: #333;
+  color: #fff;
+}
