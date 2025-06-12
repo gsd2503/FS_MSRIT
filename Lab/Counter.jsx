@@ -1,15 +1,44 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 
 function Counter() {
-  const [counter, setCounter] = useState(0);
+  const [count, setCount] = useState(0);
+
+  const btnStyle = {
+    padding: "8px 12px",
+    margin: "5px",
+    backgroundColor: "#eee",
+    border: "1px solid #ccc",
+    cursor: "pointer",
+  };
 
   return (
-    <>
-      <h2>Count: {counter}</h2>
-      <button onClick={() => setCounter(counter + 1)}>Increment</button>
-      <button onClick={() => counter === 0 ? setCounter(0) : setCounter(counter - 1)}>Decrement</button>
-      <button onClick={() => setCounter(0)}>Reset</button>
-    </>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        height: "100vh",
+        fontFamily: "sans-serif",
+      }}
+    >
+      <div
+        style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "15px" }}
+      >
+        Count: {count}
+      </div>
+      <div>
+        <button style={btnStyle} onClick={() => setCount(count + 1)}>
+          Increase
+        </button>
+        <button style={btnStyle} onClick={() => setCount(count - 1)}>
+          Decrease
+        </button>
+        <button style={btnStyle} onClick={() => setCount(0)}>
+          Reset
+        </button>
+      </div>
+    </div>
   );
 }
 
