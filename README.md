@@ -20,7 +20,17 @@
   <li>Counter Program</li>
 </ol>
 
-<h4>Exoress</h4>
+<h4>Express</h4>
 <ol>
-  <li>HTTPS Methods</li>
+  <li>User Management</li>
+  <li>Product Catalog</li>
+  <li>Book Management</li>
+  <li>Student Record Management</li>
+  <li>Task Management</li>
+</ol>
+
+<h4>EJS</h4>
+<ol>
+  <li>Movie Gallery</li>
+  <li>Recipe Page</li>
 </ol>
