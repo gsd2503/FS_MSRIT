@@ -1,7 +1,7 @@
 # FS_MSRIT
 
 <h3>INDEX:</h3>
-<h4>IA 1 </h4>
+<h4>React JS</h4>
 <ol>
   <li>Vehicle Info Card</li>
   <li>Countries & Capitals</li>
@@ -20,7 +20,7 @@
   <li>Counter Program</li>
 </ol>
 
-<h4>Express</h4>
+<h4>Express JS</h4>
 <ol>
   <li>User Management</li>
   <li>Product Catalog</li>
