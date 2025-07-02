@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title= recipe.name
+    link(rel='stylesheet', href='/styles.css')
+  body
+    .container
+      h1= recipe.name
+      
+      if recipe.image
+        img.recipe-image(src=`/assets/${recipe.image}`, alt=`Image of ${recipe.name}`)
+      
+      h2 Ingredients
+      ul.ingredients
+        each ingredient in recipe.ingredients
+          // Inline style for highlighting
+          li(style='color: #d35400; font-weight: bold')= ingredient
+      
+      h2 Steps
+      ol.steps
+        each step in recipe.steps
+          li= step
