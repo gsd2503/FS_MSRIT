@@ -27,6 +27,21 @@
   <li>Book Management</li>
   <li>Student Record Management</li>
   <li>Task Management</li>
+  <li>Library of movies</li>
+</ol>
+
+<h4>EJS</h4>
+<ol>
+  <li>Movie Gallery</li>
+  <li>Recipe Page</li>
+  <li>Travel Feedback Form</li>
+</ol>
+
+<h4>Cookies - Sessions</h4>
+<ol>
+  <li>Student login portal</li>
+  <li>Protected routes (So only logged in students can login)</li>
+  <li>Course Enrollment</li>
 </ol>
 
 <h4>EJS</h4>
