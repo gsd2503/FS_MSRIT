@@ -44,8 +44,3 @@
   <li>Course Enrollment</li>
 </ol>
 
-<h4>EJS</h4>
-<ol>
-  <li>Movie Gallery</li>
-  <li>Recipe Page</li>
-</ol>
